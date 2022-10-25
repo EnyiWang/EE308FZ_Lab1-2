@@ -20,7 +20,7 @@ public class EE308FZ_LAB2 {
     public static boolean contentFlag = false;
     
     /**
-     * we suppose if as 1, else-if as 2, else as 3
+     * we suppose 'if' as 1, 'else-if' as 2, 'else' as 3
      * and store them in a collection
      * if ith term is 3(else), and i-1th term is 1(if), which means
      * it's a if-else structure, then we make ifelseNum++
