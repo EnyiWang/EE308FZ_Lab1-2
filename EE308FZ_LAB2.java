@@ -30,10 +30,9 @@ public class EE308FZ_LAB2 {
      */
     public static ArrayList <Integer> ifTypeStructure = new ArrayList<>();
 	
-	//C:\Users\we'y\Desktop\lab2_test.cpp
+	
 	public static void main(String[] args)throws IOException {
 		// TODO Auto-generated method stub
-		//long startTime=System.currentTimeMillis();
 		ArrayList <String> keyTable = new ArrayList<>();
 		keyWords(keyTable);
 		//input the address of test file
@@ -42,7 +41,6 @@ public class EE308FZ_LAB2 {
 		String filePath=sc.nextLine();
 		int level;//there are 4 level you can choose(from low to high as 1, 2, 3, 4)
 		System.out.println("Please enter the required level:");
-		long startTime;
 		while(true) {
 			level=sc.nextInt();
 			startTime=System.currentTimeMillis();
@@ -84,8 +82,7 @@ public class EE308FZ_LAB2 {
         if(level==4) {
         	level4();	
         }
-        long endTime=System.currentTimeMillis();
-        System.out.println("runtime:"+(endTime-startTime)+"ms");
+		
 	}
 	
 	//add all keywords to a list
