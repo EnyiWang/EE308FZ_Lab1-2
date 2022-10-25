@@ -229,11 +229,9 @@ public class EE308FZ_LAB2 {
         			}
         			inWord = false;
         		}
-        	}
-        	
-        }
-    	
-    }
+        	 }
+           }
+     }
     
     
     /**
