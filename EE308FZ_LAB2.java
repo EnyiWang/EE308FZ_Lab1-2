@@ -9,11 +9,11 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 public class EE308FZ_LAB2 {
-	//set some variables to store the number
-	public static int keywordTotalNum=0;
-	public static int switchNum=0;
-	public static int[] caseNum=new int [500];
-	public static int ifelseNum = 0;
+    //set some variables to store the number
+    public static int keywordTotalNum=0;
+    public static int switchNum=0;
+    public static int[] caseNum=new int [500];
+    public static int ifelseNum = 0;
     public static int elseNum = 0;
     public static int if_elseif_elseNum = 0;
     public static boolean annotationFlag = false;
