@@ -23,7 +23,7 @@ public class EE308FZ_LAB2 {
      * we suppose 'if' as 1, 'else-if' as 2, 'else' as 3
      * and store them in a collection
      * if ith term is 3(else), and i-1th term is 1(if), which means
-     * it's a if-else structure, then we make ifelseNum++
+     * it's a if-else structure, then we can make ifelseNum++
      * to get the if_elseif_elseNum, we can just let elseNum minus ifelseNum
      * then we can get the number of if-elseif-else structure  
      * 
