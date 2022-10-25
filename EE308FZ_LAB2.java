@@ -82,7 +82,7 @@ public class EE308FZ_LAB2 {
         	level4();	
         }
         
-	}
+   }
 	
 	//add all keywords to a list
 	public static void keyWords(ArrayList<String> keyTable) {
