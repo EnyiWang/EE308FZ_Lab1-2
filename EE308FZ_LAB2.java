@@ -43,7 +43,6 @@ public class EE308FZ_LAB2 {
 		System.out.println("Please enter the required level:");
 		while(true) {
 			level=sc.nextInt();
-			startTime=System.currentTimeMillis();
 			if(level==1||level==2||level==3||level==4) {
 				break;
 			}else {
@@ -82,7 +81,7 @@ public class EE308FZ_LAB2 {
         if(level==4) {
         	level4();	
         }
-		
+        
 	}
 	
 	//add all keywords to a list
